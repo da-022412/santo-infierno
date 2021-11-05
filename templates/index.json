@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "16359940031177e9d9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<video width=\"100%\" height=\"100%\"  autoplay muted>\n  <source src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0601\/4936\/7041\/files\/alpha-final.mp4?v=1634750925\" type=\"video\/mp4\">\nYour browser does not support the video tag.\n<\/video>\n<style>\n#shopify-section-template--15218424021249__16359940031177e9d9{\nmargin-top: 0!important;\n}\n<\/style>"
+      }
+    },
+    "1633364578ddc6e953": {
+      "type": "featured-product",
+      "blocks": {
+        "1633364578ddc6e953-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1633364578ddc6e953-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1633364578ddc6e953-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1633364578ddc6e953-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1633364578ddc6e953-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1633364578ddc6e953-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1633364578ddc6e953-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1633364578ddc6e953-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1633364578ddc6e953-0",
+        "1633364578ddc6e953-1",
+        "1633364578ddc6e953-2",
+        "1633364578ddc6e953-3",
+        "1633364578ddc6e953-4",
+        "1633364578ddc6e953-5",
+        "1633364578ddc6e953-6",
+        "1633364578ddc6e953-7"
+      ],
+      "settings": {
+        "product": "bottle-750-ml",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "08a24b80-28b6-4b9b-a108-128c9ac4a9ac": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/QP_Mezcal_Santoinfierno_13.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "592459d8-742d-4d9d-97c1-ecb8f61d10e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/QP_Mezcal_Santoinfierno_04.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "1732c446-39c2-4114-b86d-12d128e41a7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/QP_Mezcal_Santoinfierno_02.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "08a24b80-28b6-4b9b-a108-128c9ac4a9ac",
+        "592459d8-742d-4d9d-97c1-ecb8f61d10e6",
+        "1732c446-39c2-4114-b86d-12d128e41a7c"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COCTEL2.png",
+            "title": "My God",
+            "text": "<p>• 50ml of Mexcal Santo Infiero<\/p><p>• 1 pod of serrace pepper without seeds<\/p><p>• 3 slices of cucumber<\/p><p>• 1 pinch of grated pepper<\/p><p>• 3\/4 oz of natural syrup<\/p><p>• 1 lemon juice twist<\/p><p>• 3 ice cubes<\/p>"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/San-tonic-cocktail.png",
+            "title": "San Tonic",
+            "text": "<p>• 50ml of Mezcal Santo Infiero<br\/>• 6 basil leaves<\/p><p>• 1 pinch of worm salt<\/p><p>• Tonic water top<\/p><p>• 3\/4 oz lemon juice<\/p><p>• 1 oz natural syrup<\/p><p>• 1 lemon juice twist<\/p>"
+          }
+        },
+        "aeda9842-1381-464d-94d9-ab7b30c9e432": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lust-cocktail.png",
+            "title": "Lust",
+            "text": "<p>• 50ml of Mezcal Santo Infiero<\/p><p>• 1 pod of serrano peppers without seeds<\/p><p>• 3 slides of cucumber<\/p><p>• 3\/4 oz green lemon<\/p><p>• 3\/4 ox of natural syrup<\/p><p>• 1 pinch of grated pepper<\/p><p>• 1 lemon juice twist<\/p><p>• 3 ice cubes<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "aeda9842-1381-464d-94d9-ab7b30c9e432"
+      ],
+      "settings": {
+        "title": "Cocktails",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "16359940031177e9d9",
+    "1633364578ddc6e953",
+    "collage",
+    "multi_column"
+  ]
+}
